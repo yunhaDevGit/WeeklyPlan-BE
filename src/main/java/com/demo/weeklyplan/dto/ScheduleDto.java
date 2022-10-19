@@ -10,7 +10,8 @@ import java.util.List;
 public class ScheduleDto {
 
     private String id;
-    private List<ScheduleDateDto> scheduleDateDtoList;
+//    private List<ScheduleDateDto> scheduleDateDtoList;
+    private String title;
     private String detail;
     private Timestamp createdAt;
     private Timestamp updatedAt;
